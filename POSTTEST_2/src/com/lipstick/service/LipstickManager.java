@@ -33,7 +33,7 @@ public class LipstickManager {
         int harga = input.nextInt();
 
         Lipstick lipstickBaru = new Lipstick(id, nama, brand, warna, ut, 0);
-        lipstickBaru.setHarga(harga); // Validasi setter
+        lipstickBaru.setHarga(harga);
 
         daftarLipstick.add(lipstickBaru);
         System.out.println("Data Berhasil Ditambahkan!");
