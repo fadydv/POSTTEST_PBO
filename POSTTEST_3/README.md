@@ -41,7 +41,7 @@ Struktur program menerapkan konsep Object-Oriented Programming (OOP) sebagai ber
 - LipTint, Memiliki atribut tambahan `bahanDasar` (String) untuk mendefinisikan formula produk (seperti Water atau Oil base).
 
 4. Class LipstickManager (Logic Layer)
-   Mengelola `ArrayList<Lipstick>` yang mampu menampung berbagai objek baik itu Matte maupun LipTint secara bersamaan (Polymorphism).
+   Mengelola `ArrayList<Lipstick>` yang mampu menampung berbagai objek baik itu Matte maupun LipTint secara bersamaan.
    Manager ini menangani proses validasi input, pencarian data berdasarkan ID, serta pengaturan alur keluar-masuk data.
 
 
